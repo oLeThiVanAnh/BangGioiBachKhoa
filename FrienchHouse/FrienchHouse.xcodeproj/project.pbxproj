@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BE807D8CB3DB03973B8CB3D /* Pods_FrienchHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F76C9222ABB7AAAFB289029 /* Pods_FrienchHouse.framework */; };
+		7262E3E81F09EAAB00A4E883 /* icon_dress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7262E3E71F09EAAB00A4E883 /* icon_dress@2x.png */; };
+		7262E3EA1F09EAC000A4E883 /* icon_dress@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7262E3E91F09EAC000A4E883 /* icon_dress@3x.png */; };
+		7262E4031F09F38B00A4E883 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7262E4051F09F38B00A4E883 /* Localizable.strings */; };
+		7262E4091F0A281C00A4E883 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7262E4081F0A281C00A4E883 /* BaseNavigationController.swift */; };
+		72CAD7F11F062C400074BFCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CAD7F01F062C400074BFCE /* AppDelegate.swift */; };
+		72CAD7F31F062C400074BFCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CAD7F21F062C400074BFCE /* ViewController.swift */; };
+		72CAD7F81F062C410074BFCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72CAD7F71F062C410074BFCE /* Assets.xcassets */; };
+		72CAD7FB1F062C410074BFCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CAD7F91F062C410074BFCE /* LaunchScreen.storyboard */; };
+		72CAD8041F062E2C0074BFCE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CAD8031F062E2C0074BFCE /* BaseViewController.swift */; };
+		72CAD8081F0633120074BFCE /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CAD8071F0633120074BFCE /* BaseTabBarController.swift */; };
+		72CAD80A1F0638CB0074BFCE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CAD8091F0638CB0074BFCE /* MainViewController.swift */; };
+		72CAD8101F0639CD0074BFCE /* icon_splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72CAD80D1F0639CD0074BFCE /* icon_splash@2x.png */; };
+		72CAD8111F0639CD0074BFCE /* icon_splash@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72CAD80E1F0639CD0074BFCE /* icon_splash@3x.png */; };
+		72CAD8181F0656010074BFCE /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CAD8161F0656010074BFCE /* ProductViewController.swift */; };
+		72CAD8191F0656010074BFCE /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72CAD8171F0656010074BFCE /* ProductViewController.xib */; };
+		72CAD81E1F06567C0074BFCE /* WishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CAD81C1F06567C0074BFCE /* WishListViewController.swift */; };
+		72CAD81F1F06567C0074BFCE /* WishListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72CAD81D1F06567C0074BFCE /* WishListViewController.xib */; };
+		72CAD8221F0656A30074BFCE /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CAD8201F0656A30074BFCE /* SetupViewController.swift */; };
+		72CAD8231F0656A30074BFCE /* SetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72CAD8211F0656A30074BFCE /* SetupViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F76C9222ABB7AAAFB289029 /* Pods_FrienchHouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FrienchHouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7262E3E71F09EAAB00A4E883 /* icon_dress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_dress@2x.png"; sourceTree = "<group>"; };
+		7262E3E91F09EAC000A4E883 /* icon_dress@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_dress@3x.png"; sourceTree = "<group>"; };
+		7262E4021F09F37800A4E883 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7262E4041F09F38B00A4E883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7262E4061F09F38E00A4E883 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7262E4071F09F38F00A4E883 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7262E4081F0A281C00A4E883 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		72CAD7ED1F062C400074BFCE /* FrienchHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrienchHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72CAD7F01F062C400074BFCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72CAD7F21F062C400074BFCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72CAD7F71F062C410074BFCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72CAD7FA1F062C410074BFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72CAD7FC1F062C410074BFCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72CAD8031F062E2C0074BFCE /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		72CAD8071F0633120074BFCE /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		72CAD8091F0638CB0074BFCE /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		72CAD80D1F0639CD0074BFCE /* icon_splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_splash@2x.png"; sourceTree = "<group>"; };
+		72CAD80E1F0639CD0074BFCE /* icon_splash@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_splash@3x.png"; sourceTree = "<group>"; };
+		72CAD8161F0656010074BFCE /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		72CAD8171F0656010074BFCE /* ProductViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
+		72CAD81C1F06567C0074BFCE /* WishListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListViewController.swift; sourceTree = "<group>"; };
+		72CAD81D1F06567C0074BFCE /* WishListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WishListViewController.xib; sourceTree = "<group>"; };
+		72CAD8201F0656A30074BFCE /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		72CAD8211F0656A30074BFCE /* SetupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetupViewController.xib; sourceTree = "<group>"; };
+		980444885D480356BE073D58 /* Pods-FrienchHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrienchHouse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FrienchHouse/Pods-FrienchHouse.debug.xcconfig"; sourceTree = "<group>"; };
+		D70DF02D597E352517FE2BA5 /* Pods-FrienchHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrienchHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-FrienchHouse/Pods-FrienchHouse.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72CAD7EA1F062C400074BFCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE807D8CB3DB03973B8CB3D /* Pods_FrienchHouse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		145468257E56F2758A4CF207 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F76C9222ABB7AAAFB289029 /* Pods_FrienchHouse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A8A5E044F7CF8EE720331E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				980444885D480356BE073D58 /* Pods-FrienchHouse.debug.xcconfig */,
+				D70DF02D597E352517FE2BA5 /* Pods-FrienchHouse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7262E3F01F09EE4800A4E883 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				7262E4051F09F38B00A4E883 /* Localizable.strings */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		72CAD7E41F062C400074BFCE = {
+			isa = PBXGroup;
+			children = (
+				72CAD7EF1F062C400074BFCE /* FrienchHouse */,
+				72CAD7EE1F062C400074BFCE /* Products */,
+				5A8A5E044F7CF8EE720331E9 /* Pods */,
+				145468257E56F2758A4CF207 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72CAD7EE1F062C400074BFCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72CAD7ED1F062C400074BFCE /* FrienchHouse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72CAD7EF1F062C400074BFCE /* FrienchHouse */ = {
+			isa = PBXGroup;
+			children = (
+				7262E3F01F09EE4800A4E883 /* Localization */,
+				72CAD8151F0642510074BFCE /* AP003.Setup */,
+				72CAD8131F0642330074BFCE /* AP002.WishList */,
+				72CAD8121F0642180074BFCE /* AP001.Product */,
+				72CAD80B1F0639B00074BFCE /* Resource */,
+				72CAD8021F062D8E0074BFCE /* Base */,
+				72CAD7F01F062C400074BFCE /* AppDelegate.swift */,
+				72CAD7F21F062C400074BFCE /* ViewController.swift */,
+				72CAD7F71F062C410074BFCE /* Assets.xcassets */,
+				72CAD7F91F062C410074BFCE /* LaunchScreen.storyboard */,
+				72CAD7FC1F062C410074BFCE /* Info.plist */,
+			);
+			path = FrienchHouse;
+			sourceTree = "<group>";
+		};
+		72CAD8021F062D8E0074BFCE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				72CAD8031F062E2C0074BFCE /* BaseViewController.swift */,
+				72CAD8071F0633120074BFCE /* BaseTabBarController.swift */,
+				72CAD8091F0638CB0074BFCE /* MainViewController.swift */,
+				7262E4081F0A281C00A4E883 /* BaseNavigationController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		72CAD80B1F0639B00074BFCE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7262E3E71F09EAAB00A4E883 /* icon_dress@2x.png */,
+				7262E3E91F09EAC000A4E883 /* icon_dress@3x.png */,
+				72CAD80E1F0639CD0074BFCE /* icon_splash@3x.png */,
+				72CAD80D1F0639CD0074BFCE /* icon_splash@2x.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		72CAD8121F0642180074BFCE /* AP001.Product */ = {
+			isa = PBXGroup;
+			children = (
+				72CAD8161F0656010074BFCE /* ProductViewController.swift */,
+				72CAD8171F0656010074BFCE /* ProductViewController.xib */,
+			);
+			name = AP001.Product;
+			sourceTree = "<group>";
+		};
+		72CAD8131F0642330074BFCE /* AP002.WishList */ = {
+			isa = PBXGroup;
+			children = (
+				72CAD81C1F06567C0074BFCE /* WishListViewController.swift */,
+				72CAD81D1F06567C0074BFCE /* WishListViewController.xib */,
+			);
+			name = AP002.WishList;
+			sourceTree = "<group>";
+		};
+		72CAD8151F0642510074BFCE /* AP003.Setup */ = {
+			isa = PBXGroup;
+			children = (
+				72CAD8201F0656A30074BFCE /* SetupViewController.swift */,
+				72CAD8211F0656A30074BFCE /* SetupViewController.xib */,
+			);
+			name = AP003.Setup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72CAD7EC1F062C400074BFCE /* FrienchHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72CAD7FF1F062C410074BFCE /* Build configuration list for PBXNativeTarget "FrienchHouse" */;
+			buildPhases = (
+				314406C9F02DABF2F878FFE2 /* [CP] Check Pods Manifest.lock */,
+				72CAD7E91F062C400074BFCE /* Sources */,
+				72CAD7EA1F062C400074BFCE /* Frameworks */,
+				72CAD7EB1F062C400074BFCE /* Resources */,
+				AE0CF8C585D6151585E3C2EA /* [CP] Embed Pods Frameworks */,
+				E2ACFE1A75B440C33009AC75 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrienchHouse;
+			productName = FrienchHouse;
+			productReference = 72CAD7ED1F062C400074BFCE /* FrienchHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72CAD7E51F062C400074BFCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Le Thi Van Anh";
+				TargetAttributes = {
+					72CAD7EC1F062C400074BFCE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X8GBFTHDE8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 72CAD7E81F062C400074BFCE /* Build configuration list for PBXProject "FrienchHouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				vi,
+			);
+			mainGroup = 72CAD7E41F062C400074BFCE;
+			productRefGroup = 72CAD7EE1F062C400074BFCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72CAD7EC1F062C400074BFCE /* FrienchHouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72CAD7EB1F062C400074BFCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7262E3E81F09EAAB00A4E883 /* icon_dress@2x.png in Resources */,
+				72CAD7FB1F062C410074BFCE /* LaunchScreen.storyboard in Resources */,
+				72CAD8231F0656A30074BFCE /* SetupViewController.xib in Resources */,
+				72CAD81F1F06567C0074BFCE /* WishListViewController.xib in Resources */,
+				72CAD8111F0639CD0074BFCE /* icon_splash@3x.png in Resources */,
+				72CAD8191F0656010074BFCE /* ProductViewController.xib in Resources */,
+				7262E3EA1F09EAC000A4E883 /* icon_dress@3x.png in Resources */,
+				7262E4031F09F38B00A4E883 /* Localizable.strings in Resources */,
+				72CAD7F81F062C410074BFCE /* Assets.xcassets in Resources */,
+				72CAD8101F0639CD0074BFCE /* icon_splash@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		314406C9F02DABF2F878FFE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE0CF8C585D6151585E3C2EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrienchHouse/Pods-FrienchHouse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2ACFE1A75B440C33009AC75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrienchHouse/Pods-FrienchHouse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72CAD7E91F062C400074BFCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CAD7F31F062C400074BFCE /* ViewController.swift in Sources */,
+				72CAD8081F0633120074BFCE /* BaseTabBarController.swift in Sources */,
+				72CAD8181F0656010074BFCE /* ProductViewController.swift in Sources */,
+				72CAD80A1F0638CB0074BFCE /* MainViewController.swift in Sources */,
+				72CAD81E1F06567C0074BFCE /* WishListViewController.swift in Sources */,
+				7262E4091F0A281C00A4E883 /* BaseNavigationController.swift in Sources */,
+				72CAD7F11F062C400074BFCE /* AppDelegate.swift in Sources */,
+				72CAD8221F0656A30074BFCE /* SetupViewController.swift in Sources */,
+				72CAD8041F062E2C0074BFCE /* BaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7262E4051F09F38B00A4E883 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7262E4041F09F38B00A4E883 /* Base */,
+				7262E4061F09F38E00A4E883 /* en */,
+				7262E4071F09F38F00A4E883 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		72CAD7F91F062C410074BFCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72CAD7FA1F062C410074BFCE /* Base */,
+				7262E4021F09F37800A4E883 /* vi */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72CAD7FD1F062C410074BFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72CAD7FE1F062C410074BFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72CAD8001F062C410074BFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 980444885D480356BE073D58 /* Pods-FrienchHouse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8GBFTHDE8;
+				INFOPLIST_FILE = FrienchHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tailor.FrienchHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		72CAD8011F062C410074BFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D70DF02D597E352517FE2BA5 /* Pods-FrienchHouse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8GBFTHDE8;
+				INFOPLIST_FILE = FrienchHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tailor.FrienchHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72CAD7E81F062C400074BFCE /* Build configuration list for PBXProject "FrienchHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CAD7FD1F062C410074BFCE /* Debug */,
+				72CAD7FE1F062C410074BFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72CAD7FF1F062C410074BFCE /* Build configuration list for PBXNativeTarget "FrienchHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CAD8001F062C410074BFCE /* Debug */,
+				72CAD8011F062C410074BFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72CAD7E51F062C400074BFCE /* Project object */;
+}
