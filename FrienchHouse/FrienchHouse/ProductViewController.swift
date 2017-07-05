@@ -12,12 +12,23 @@ class ProductViewController: BaseViewController {
 
     @IBOutlet weak fileprivate var searchViewTopConstraint: NSLayoutConstraint!
     @IBOutlet weak fileprivate var searchView: SearchCommonView!
+    private var badgeBarButtonItem = BadgeBarButtonItem()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
     }
 
-    fileprivate func setupView() {
+    private func setupView() {
+        addRightBarButtonItem()
+        addCommonSearchView()
+    }
+
+    private func addRightBarButtonItem() {
+        self.navigationItem.rightBarButtonItem = badgeBarButtonItem
+    }
+
+    private func addCommonSearchView() {
         searchViewTopConstraint.constant = self.navigationController!.navigationBar.frame.origin.y +
             self.navigationController!.navigationBar.frame.height
         if let searchCommonView = SearchCommonView.create() {
@@ -25,5 +36,4 @@ class ProductViewController: BaseViewController {
             searchView.addSubview(searchCommonView)
         }
     }
-    
 }
