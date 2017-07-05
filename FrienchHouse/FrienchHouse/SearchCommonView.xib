@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="SearchCommonView" customModule="FrienchHouse" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zVD-b0-psW">
+                    <rect key="frame" x="319" y="4" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="BAA-fl-9CA"/>
+                        <constraint firstAttribute="width" constant="46" id="F2v-lT-b6I"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="9"/>
+                    <state key="normal" title="SEARCH">
+                        <color key="titleColor" red="0.0021858808290154963" green="0.0021858808290154963" blue="0.0021858808290154963" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aDI-86-hAX">
+                    <rect key="frame" x="10" y="33" width="291" height="1"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="bUg-Fc-dV1"/>
+                    </constraints>
+                </view>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QGD-El-4Od">
+                    <rect key="frame" x="10" y="1" width="291" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="QGD-El-4Od" firstAttribute="width" secondItem="aDI-86-hAX" secondAttribute="width" id="0Qr-Su-CfP"/>
+                <constraint firstItem="QGD-El-4Od" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="1" id="7oK-xS-VKo"/>
+                <constraint firstItem="zVD-b0-psW" firstAttribute="leading" secondItem="aDI-86-hAX" secondAttribute="trailing" constant="18" id="8hZ-8D-NTy"/>
+                <constraint firstAttribute="bottom" secondItem="aDI-86-hAX" secondAttribute="bottom" constant="10" id="B0a-Z9-PrZ"/>
+                <constraint firstItem="QGD-El-4Od" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="FlS-7a-RXe"/>
+                <constraint firstItem="aDI-86-hAX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="R9C-DT-tNr"/>
+                <constraint firstAttribute="bottom" secondItem="zVD-b0-psW" secondAttribute="bottom" constant="10" id="iuT-72-1Ih"/>
+                <constraint firstItem="aDI-86-hAX" firstAttribute="top" secondItem="QGD-El-4Od" secondAttribute="bottom" constant="2" id="qb1-Sl-2zZ"/>
+                <constraint firstAttribute="trailing" secondItem="zVD-b0-psW" secondAttribute="trailing" constant="10" id="wPh-kV-EFh"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="44.5" y="-191"/>
+        </view>
+    </objects>
+</document>
