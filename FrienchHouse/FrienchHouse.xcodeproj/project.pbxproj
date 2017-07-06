@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0BE807D8CB3DB03973B8CB3D /* Pods_FrienchHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F76C9222ABB7AAAFB289029 /* Pods_FrienchHouse.framework */; };
+		723FBEF71F0CC82A001CE2F5 /* icon_shoppingbag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 723FBEF51F0CC82A001CE2F5 /* icon_shoppingbag@2x.png */; };
+		723FBEF81F0CC82A001CE2F5 /* icon_shoppingbag@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 723FBEF61F0CC82A001CE2F5 /* icon_shoppingbag@3x.png */; };
+		723FBEFB1F0CD4DB001CE2F5 /* BadgeBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723FBEFA1F0CD4DB001CE2F5 /* BadgeBarButtonItem.swift */; };
+		72452E791F0E114300ADF8DF /* FontConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72452E781F0E114300ADF8DF /* FontConstant.swift */; };
+		72452E7C1F0E14C100ADF8DF /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72452E7B1F0E14C100ADF8DF /* UILabelExtension.swift */; };
 		724A60511F0B704C008AA5B0 /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724A60501F0B704C008AA5B0 /* ProductViewController.xib */; };
 		7262E3E81F09EAAB00A4E883 /* icon_dress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7262E3E71F09EAAB00A4E883 /* icon_dress@2x.png */; };
 		7262E3EA1F09EAC000A4E883 /* icon_dress@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7262E3E91F09EAC000A4E883 /* icon_dress@3x.png */; };
@@ -35,6 +40,11 @@
 
 /* Begin PBXFileReference section */
 		2F76C9222ABB7AAAFB289029 /* Pods_FrienchHouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FrienchHouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		723FBEF51F0CC82A001CE2F5 /* icon_shoppingbag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_shoppingbag@2x.png"; sourceTree = "<group>"; };
+		723FBEF61F0CC82A001CE2F5 /* icon_shoppingbag@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_shoppingbag@3x.png"; sourceTree = "<group>"; };
+		723FBEFA1F0CD4DB001CE2F5 /* BadgeBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeBarButtonItem.swift; sourceTree = "<group>"; };
+		72452E781F0E114300ADF8DF /* FontConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontConstant.swift; sourceTree = "<group>"; };
+		72452E7B1F0E14C100ADF8DF /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
 		724A60501F0B704C008AA5B0 /* ProductViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
 		7262E3E71F09EAAB00A4E883 /* icon_dress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_dress@2x.png"; sourceTree = "<group>"; };
 		7262E3E91F09EAC000A4E883 /* icon_dress@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_dress@3x.png"; sourceTree = "<group>"; };
@@ -96,6 +106,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		723FBEF91F0CD497001CE2F5 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				723FBEFA1F0CD4DB001CE2F5 /* BadgeBarButtonItem.swift */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
+		72452E751F0DDEDF00ADF8DF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				72452E781F0E114300ADF8DF /* FontConstant.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		72452E7A1F0E120E00ADF8DF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				72452E7B1F0E14C100ADF8DF /* UILabelExtension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
 		7262E3F01F09EE4800A4E883 /* Localization */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +159,9 @@
 		72CAD7EF1F062C400074BFCE /* FrienchHouse */ = {
 			isa = PBXGroup;
 			children = (
+				72452E7A1F0E120E00ADF8DF /* Extension */,
+				72452E751F0DDEDF00ADF8DF /* Utility */,
+				723FBEF91F0CD497001CE2F5 /* CustomView */,
 				7262E3F01F09EE4800A4E883 /* Localization */,
 				72CAD8151F0642510074BFCE /* AP003.Setup */,
 				72CAD8131F0642330074BFCE /* AP002.WishList */,
@@ -154,6 +191,8 @@
 		72CAD80B1F0639B00074BFCE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				723FBEF51F0CC82A001CE2F5 /* icon_shoppingbag@2x.png */,
+				723FBEF61F0CC82A001CE2F5 /* icon_shoppingbag@3x.png */,
 				7262E41A1F0A491800A4E883 /* icon_title@2x.png */,
 				7262E41B1F0A491800A4E883 /* icon_title@3x.png */,
 				7262E3E71F09EAAB00A4E883 /* icon_dress@2x.png */,
@@ -261,12 +300,14 @@
 				7262E41D1F0A491800A4E883 /* icon_title@3x.png in Resources */,
 				72CAD7FB1F062C410074BFCE /* LaunchScreen.storyboard in Resources */,
 				7262E4211F0A492700A4E883 /* SearchCommonView.xib in Resources */,
+				723FBEF81F0CC82A001CE2F5 /* icon_shoppingbag@3x.png in Resources */,
 				72CAD8231F0656A30074BFCE /* SetupViewController.xib in Resources */,
 				72CAD81F1F06567C0074BFCE /* WishListViewController.xib in Resources */,
 				72CAD8111F0639CD0074BFCE /* icon_splash@3x.png in Resources */,
 				7262E3EA1F09EAC000A4E883 /* icon_dress@3x.png in Resources */,
 				7262E41C1F0A491800A4E883 /* icon_title@2x.png in Resources */,
 				724A60511F0B704C008AA5B0 /* ProductViewController.xib in Resources */,
+				723FBEF71F0CC82A001CE2F5 /* icon_shoppingbag@2x.png in Resources */,
 				7262E4031F09F38B00A4E883 /* Localizable.strings in Resources */,
 				72CAD7F81F062C410074BFCE /* Assets.xcassets in Resources */,
 				72CAD8101F0639CD0074BFCE /* icon_splash@2x.png in Resources */,
@@ -331,7 +372,10 @@
 				72CAD7F31F062C400074BFCE /* ViewController.swift in Sources */,
 				72CAD8081F0633120074BFCE /* BaseTabBarController.swift in Sources */,
 				72CAD8181F0656010074BFCE /* ProductViewController.swift in Sources */,
+				723FBEFB1F0CD4DB001CE2F5 /* BadgeBarButtonItem.swift in Sources */,
+				72452E7C1F0E14C100ADF8DF /* UILabelExtension.swift in Sources */,
 				72CAD80A1F0638CB0074BFCE /* MainViewController.swift in Sources */,
+				72452E791F0E114300ADF8DF /* FontConstant.swift in Sources */,
 				72CAD81E1F06567C0074BFCE /* WishListViewController.swift in Sources */,
 				7262E4091F0A281C00A4E883 /* BaseNavigationController.swift in Sources */,
 				72CAD7F11F062C400074BFCE /* AppDelegate.swift in Sources */,
