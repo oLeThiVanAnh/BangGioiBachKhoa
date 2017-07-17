@@ -1,25 +1,32 @@
 PODS:
+  - Alamofire (4.4.0)
   - Crashlytics (3.8.4):
     - Fabric (~> 1.6.3)
   - Fabric (1.6.11)
+  - RxCocoa (3.4.0):
+    - RxSwift (~> 3.4)
   - RxSwift (3.4.0)
   - SVProgressHUD (2.1.2)
   - SwiftHTTP (2.0.2)
 
 DEPENDENCIES:
+  - Alamofire
   - Crashlytics
   - Fabric
+  - RxCocoa
   - RxSwift
   - SVProgressHUD
   - SwiftHTTP
 
 SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
   Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  RxCocoa: d14ef6b6029e1ddc6e966508c09289090de68ff9
   RxSwift: 3789a1af753002a14edecdb698a2424624296a9c
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   SwiftHTTP: faa1a5f7670568ffc9361898229dbe84a6088468
 
-PODFILE CHECKSUM: e81624b2d130db688a335e46847e29bf7eadbd8c
+PODFILE CHECKSUM: 1b022bdb1b4763838f8a2fcc25b199f1a65bcb6d
 
 COCOAPODS: 1.2.1

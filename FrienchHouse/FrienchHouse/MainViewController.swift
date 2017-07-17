@@ -16,7 +16,7 @@ class MainViewController: BaseTabBarController {
 
         // Do any additional setup after loading the view.
         // Do any additional setup after loading the view.
-        let productViewController = BaseNavigationController(rootViewController: ProductViewController(nibName: "ProductViewController", bundle: nil))
+        let productViewController = BaseNavigationController(rootViewController: CollectionsViewController(nibName: "CollectionsViewController", bundle: nil))
         let wishListViewController = BaseNavigationController(rootViewController: WishListViewController(nibName: "WishListViewController", bundle: nil))
         let setupViewController = BaseNavigationController(rootViewController: SetupViewController(nibName: "SetupViewController", bundle: nil))
 

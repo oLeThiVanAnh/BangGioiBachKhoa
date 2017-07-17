@@ -10,6 +10,8 @@ target 'FrienchHouse' do
 	pod 'Fabric'
 	pod 'Crashlytics'
 	pod 'RxSwift'
+	pod 'RxCocoa'
+	pod 'Alamofire'
   # Pods for FrienchHouse
 
 end
